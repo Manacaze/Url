@@ -1,9 +1,9 @@
 <?php
 
 //localhost
-	$hostname_sigre = "localhost";
-	$database_sigre = "s1719";
-	$username_sigre = "root";
+	$hostname_sigre = "";
+	$database_sigre = "";
+	$username_sigre = "";
 	$password_sigre = "";
 
 	$con=mysqli_connect($hostname_sigre, $username_sigre,$password_sigre) or trigger_error(mysqli_error(),E_USER_ERROR);
